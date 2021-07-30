@@ -17,9 +17,8 @@
  Javascript</h4>
 
 <h1 align="center"> Preview </h1>
-
+<div align="center">
 <img src="https://user-images.githubusercontent.com/77814658/127683099-1d356cd0-b442-4c63-b84a-e63268428ca6.png" alt="img" />
----
+
 <img src="https://user-images.githubusercontent.com/77814658/127683106-495080ec-ca6e-4666-af2e-0062b8bbac2f.png" alt="img" />
----
-![Captura de tela de 2021-07-30 13-16-53](https://user-images.githubusercontent.com/77814658/127683107-7e99eed5-3d73-419a-8a33-a9842bc6ec0f.png)
+</div>
