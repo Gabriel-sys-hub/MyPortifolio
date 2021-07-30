@@ -49,11 +49,11 @@ const Skills = () => {
       </div>
       </div>
       <div className="icon-container">
-      <i className="fab fa-html5"></i>
-      <i className="fab fa-js-square"></i>
-      <i className="fab fa-react"></i>
-      <i className="fab fa-git"></i>
-      <i className="fab fa-node-js"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-js-square"></i>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-git"></i>
+        <i className="fab fa-node-js"></i>
       </div>
     </div>
   )

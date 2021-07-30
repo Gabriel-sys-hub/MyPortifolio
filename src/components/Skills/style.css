@@ -47,4 +47,8 @@
     align-items: center;
     flex-wrap: wrap;
   }
+
+  .icon-container > i {
+    gap: 20px;
+  }
 }
