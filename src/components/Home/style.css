@@ -1,0 +1,109 @@
+.home {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.button button {
+  border: none;
+  margin: 30px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: rgb(34, 146, 238);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .title {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.home .title p {
+  line-height: 50px;
+  font-size: 36px;
+  color:rgba(39, 39, 39, 0.753)
+}
+
+.home .title h1 {
+  font-size: 2em;
+  color:rgb(32, 32, 32)
+}
+
+.home .title p {
+  position: relative;
+  width: 24em;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  font-size: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-30%);
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(30) infinite normal;
+}
+
+@keyframes typewriter {
+  from { 
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 0.75);
+    
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.home .person {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.home .person img {
+  border-radius: 50%;
+  border: solid rgb(185, 185, 185) 1px;
+  box-shadow: rgba(128, 128, 128, 0.753) 10px 10px 10px 1px;
+}
+
+@media ( min-width: 880px ) {
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home .title,
+  .home .person {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+  .button button {
+    width: 160px;
+  }
+  .home .person img {
+    width: 60%;
+  }
+}
