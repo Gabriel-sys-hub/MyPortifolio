@@ -7,18 +7,16 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(0);
   const location = useLocation();
-
-  const trackScreenWidth = () => {
-    const screenWidthSize = window.innerWidth;
-    setScreenWidth(screenWidth);
-    screenWidthSize > 800 ? setOpen(true) : setOpen(0);
-  }
-
   useEffect(() => {
+    const trackScreenWidth = () => {
+      const screenWidthSize = window.innerWidth;
+      setScreenWidth(screenWidth);
+      screenWidthSize > 800 ? setOpen(true) : setOpen(0);
+    }
     trackScreenWidth();
     window.addEventListener('resize', trackScreenWidth);
     return () => window.removeEventListener('resize', trackScreenWidth)
-  }, []);
+  }, [screenWidth]);
 
   return (
     <nav className="navbar">
