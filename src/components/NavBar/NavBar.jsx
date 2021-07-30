@@ -9,9 +9,9 @@ const NavBar = () => {
   const location = useLocation();
 
   const trackScreenWidth = () => {
-    const screenWidth = window.innerWidth;
+    const screenWidthSize = window.innerWidth;
     setScreenWidth(screenWidth);
-    screenWidth > 800 ? setOpen(true) : setOpen(0);
+    screenWidthSize > 800 ? setOpen(true) : setOpen(0);
   }
 
   useEffect(() => {
