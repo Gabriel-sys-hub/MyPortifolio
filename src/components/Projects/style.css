@@ -15,16 +15,18 @@
 }
 
 .imgContainer {
-  width: 50%;
-  height: 60%;
+  width: 30%;
+  height: 30%;
   flex-direction: column;
   margin: 20px;
 }
 
 .projects {
   width: 100%;
+  min-height: 830px;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 

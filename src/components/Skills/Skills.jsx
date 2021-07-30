@@ -1,19 +1,46 @@
 import './style.css';
 
 const Skills = () => {
+  const languages = [
+    "Javascript",
+    "CSS",
+    "HTML",
+    "Node.js"
+  ]
+
+  const library = [
+    "ReactJS",
+    "Bootstrap",
+    "Redux",
+  ]
+
+  const tools = [
+    "ESlint",
+    "VScode",
+    "Git & GitHub",
+    "Photoshop",
+    "Figma",
+  ]
+
+  const softSkills = [
+    "Colaboração",
+    "Inteligencia Emocional",
+    "Flexibilidade",
+    "Empatia",
+    "Comunicação",
+  ]
+
   return (
     <div className="container">
       <div>
       <h1>Soft Skills</h1>
       <div className="wrapper">
         <div className="card-container">
-        <ul>
-          <li>Colaboração</li>
-          <li>Inteligência Emocional</li>
-          <li>Flexibilidade</li>
-          <li>Empatia</li>
-          <li>Comunicação</li>
-        </ul>
+        { softSkills.map((item) => (
+          <ul>
+            <li>{ item }</li>  
+          </ul>
+        ))}
         </div>
       </div>
       </div>
@@ -21,31 +48,29 @@ const Skills = () => {
       <h1>Hard Skills</h1>
       <div className="wrapper">
         <div className="card-container">
-        <h2>Linguagens:</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>CSS3</li>
-          <li>HTML5</li>
-          <li>Node.js</li>
-        </ul>
+          <h2>Linguagens:</h2>
+          { languages.map((item) => (
+            <ul>
+              <li>{ item }</li>
+            </ul>
+          ))}
+          </div>
+        <div className="card-container">
+          <h2>Bibliotecas:</h2>
+          { library.map((item) => (
+            <ul>
+              <li>{ item }</li>
+          </ul>
+          ))}
         </div>
         <div className="card-container">
-        <h2>Bibliotecas:</h2>
-        <ul>
-          <li>React.js</li>
-          <li>Bootstrap</li>
-          <li>Redux</li>
-        </ul>
-        </div>
-        <div className="card-container">
-        <h2>Ferramentas:</h2>
-        <ul>
-          <li>Eslint</li>
-          <li>VSCode</li>
-          <li>Git e Github</li>
-          <li>Photoshop</li>
-        </ul>
-        </div>
+          <h2>Ferramentas:</h2>
+          { tools.map((item) => (
+            <ul>
+              <li> { item }</li>
+            </ul>
+          ))}
+          </div>
       </div>
       </div>
       <div className="icon-container">
