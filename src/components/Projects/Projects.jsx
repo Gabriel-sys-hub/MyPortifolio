@@ -100,7 +100,7 @@ const Projects = () => {
       { activeDescription && (
           <>
             <p>
-              A application that sumilate a pokedex, that you can filter pokemons by name and type. It gives the image and some information about each pokemon.
+              A application that simulate a pokedex, you can filter pokemons by name and type. It gives the image and some information about each pokemon.
             </p>
             <a
               target="_blank"
