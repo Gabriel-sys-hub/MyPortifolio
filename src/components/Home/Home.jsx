@@ -1,5 +1,6 @@
 import './style.css';
 import { Link } from "react-router-dom";
+import profilePicture from '../images/profilePicture';
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
         <p className="more">Web Developer Full Stack Student @Trybe</p>
       </div>
       <div className="person">
-        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQENdulQXZCUxg/profile-displayphoto-shrink_200_200/0/1614791459884?e=1628121600&v=beta&t=Kp2JNFQ3t3_2qwwLqLhUkFo52idcH2D-tbAy9AFZK_o" alt="personpicture" />
+        <img src={ profilePicture } alt="profilePicture" />
       </div>
       <div className="button">
       <Link to="about">
