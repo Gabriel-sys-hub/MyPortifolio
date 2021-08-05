@@ -1,6 +1,6 @@
 import './style.css';
 import { Link } from "react-router-dom";
-import profilePicture from '../images/profilePicture';
+import profilePicture from '../images/profilePicture.jpeg';
 
 const Home = () => {
   return (
