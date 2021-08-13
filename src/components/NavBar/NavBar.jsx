@@ -30,19 +30,16 @@ const NavBar = () => {
             <i className="fas fa-bars" style={{ opacity: !open ? 1 : 0 }} onClick={() => setOpen(!open) }></i>
             <ul style={{ left: open ? '0vw' : '-100vw'  }}>
               <li>
-                <Link style={{ color: location.pathname === "/" && "#4071f4"}} to="/">Inicio</Link>
+                <Link style={{ color: location.pathname === "/" && "#e7650f;"}} to="/">Inicio</Link>
               </li>
               <li>
-                <Link style={{ color: location.pathname === "/about" && "#4071f4"}} to="/about">Sobre</Link>
+                <Link style={{ color: location.pathname === "/skills" && "#e7650f;"}} to="/skills">Skills</Link>
               </li>
               <li>
-                <Link style={{ color: location.pathname === "/skills" && "#4071f4"}} to="/skills">Skills</Link>
+                <Link style={{ color: location.pathname === "/Projects" && "#e7650f;"}} to="/Projects">Projetos</Link>
               </li>
               <li>
-                <Link style={{ color: location.pathname === "/Projects" && "#4071f4"}} to="/Projects">Projetos</Link>
-              </li>
-              <li>
-                <Link style={{ color: location.pathname === "/contact" && "#4071f4"}} to="/contact">Contato</Link>
+                <Link style={{ color: location.pathname === "/contact" && "#e7650f;"}} to="/contact">Contato</Link>
               </li>
             </ul>
           </div>

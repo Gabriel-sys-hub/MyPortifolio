@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/myportifolio/static/css/main.00ca2f71.chunk.css",
-    "main.js": "/myportifolio/static/js/main.0e9ab58b.chunk.js",
-    "main.js.map": "/myportifolio/static/js/main.0e9ab58b.chunk.js.map",
-    "runtime-main.js": "/myportifolio/static/js/runtime-main.cee09377.js",
-    "runtime-main.js.map": "/myportifolio/static/js/runtime-main.cee09377.js.map",
-    "static/js/2.97972403.chunk.js": "/myportifolio/static/js/2.97972403.chunk.js",
-    "static/js/2.97972403.chunk.js.map": "/myportifolio/static/js/2.97972403.chunk.js.map",
-    "index.html": "/myportifolio/index.html",
-    "static/css/main.00ca2f71.chunk.css.map": "/myportifolio/static/css/main.00ca2f71.chunk.css.map",
-    "static/js/2.97972403.chunk.js.LICENSE.txt": "/myportifolio/static/js/2.97972403.chunk.js.LICENSE.txt",
-    "static/media/colorGuess.ee80dd40.png": "/myportifolio/static/media/colorGuess.ee80dd40.png",
-    "static/media/palet.bddee635.png": "/myportifolio/static/media/palet.bddee635.png",
-    "static/media/toDoList.c6f1acdc.png": "/myportifolio/static/media/toDoList.c6f1acdc.png"
+    "main.css": "/MyPortifolio/static/css/main.254db68c.chunk.css",
+    "main.js": "/MyPortifolio/static/js/main.bac1cb44.chunk.js",
+    "main.js.map": "/MyPortifolio/static/js/main.bac1cb44.chunk.js.map",
+    "runtime-main.js": "/MyPortifolio/static/js/runtime-main.b276e244.js",
+    "runtime-main.js.map": "/MyPortifolio/static/js/runtime-main.b276e244.js.map",
+    "static/js/2.778cdaeb.chunk.js": "/MyPortifolio/static/js/2.778cdaeb.chunk.js",
+    "static/js/2.778cdaeb.chunk.js.map": "/MyPortifolio/static/js/2.778cdaeb.chunk.js.map",
+    "index.html": "/MyPortifolio/index.html",
+    "static/css/main.254db68c.chunk.css.map": "/MyPortifolio/static/css/main.254db68c.chunk.css.map",
+    "static/js/2.778cdaeb.chunk.js.LICENSE.txt": "/MyPortifolio/static/js/2.778cdaeb.chunk.js.LICENSE.txt",
+    "static/media/colorGuess.ee80dd40.png": "/MyPortifolio/static/media/colorGuess.ee80dd40.png",
+    "static/media/palet.bddee635.png": "/MyPortifolio/static/media/palet.bddee635.png",
+    "static/media/pokedexVanilla.76471dad.png": "/MyPortifolio/static/media/pokedexVanilla.76471dad.png",
+    "static/media/profilePicture.d145a5ce.jpeg": "/MyPortifolio/static/media/profilePicture.d145a5ce.jpeg",
+    "static/media/toDoList.c6f1acdc.png": "/MyPortifolio/static/media/toDoList.c6f1acdc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cee09377.js",
-    "static/js/2.97972403.chunk.js",
-    "static/css/main.00ca2f71.chunk.css",
-    "static/js/main.0e9ab58b.chunk.js"
+    "static/js/runtime-main.b276e244.js",
+    "static/js/2.778cdaeb.chunk.js",
+    "static/css/main.254db68c.chunk.css",
+    "static/js/main.bac1cb44.chunk.js"
   ]
 }
