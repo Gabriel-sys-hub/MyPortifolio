@@ -16,11 +16,4 @@
 <h4 align="center"> React<br>
  Javascript</h4>
 
-<h1 align="center"> Preview </h1>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/77814658/127683099-1d356cd0-b442-4c63-b84a-e63268428ca6.png" alt="img" />
-
-<img src="https://user-images.githubusercontent.com/77814658/127683106-495080ec-ca6e-4666-af2e-0062b8bbac2f.png" alt="img" />
-</div>
-
 <h1 align="center"> GitHub Pages - <a href="https://gabriel-sys-hub.github.io/MyPortifolio/">My Portifolio</a>
