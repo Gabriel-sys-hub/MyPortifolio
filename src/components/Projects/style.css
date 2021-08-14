@@ -66,7 +66,7 @@
   .imgContainer {
     padding: 0;
     height: 100%;
-    width: 100%;
+    width: 79%;
     margin: 20px 0;
   }
 
@@ -75,7 +75,7 @@
   }
 
   .projectImage {
-    width: 90%;
+    width: 99%;
   }
 
   .projects {

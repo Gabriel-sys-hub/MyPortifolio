@@ -28,6 +28,8 @@ const Skills = () => {
     "Flexibilidade",
     "Empatia",
     "Comunicação",
+    "Determinação",
+    "Liderança",
   ]
 
   return (

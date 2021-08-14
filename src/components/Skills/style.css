@@ -7,6 +7,16 @@
   padding: 90px;
 }
 
+.container__skills > div, .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
 .card-container,
 .card-container ul {
   margin: 10px;
@@ -20,11 +30,19 @@
 
 .wrapper {
   display: flex;
+
+  flex-direction: row;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .card-container {
   background-color: rgb(231, 101, 15);
   padding: 20px;
+  height: 100%;
   border-radius: 5px;
 }
 
@@ -39,6 +57,11 @@
     width: 100%;
   }
 
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
   .card-container,
   .card-container ul {
     width: 80%;
@@ -46,11 +69,13 @@
     text-align: center;
   }
 
-  .wrapper {
+  .wrapper > div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .card-container li {
@@ -58,6 +83,8 @@
   }
 
   .icon-container {
+    display: flex;
+    flex-direction: row !important;
     width: 90vw;
   }
 

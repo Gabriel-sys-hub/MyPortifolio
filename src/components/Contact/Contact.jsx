@@ -6,7 +6,7 @@ const Contact = () => {
       <a target="_blank" rel="noreferrer" href="https://github.com/Gabriel-sys-hub">
         <i className="fab fa-github-square"> GitHub</i>
       </a>
-      <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabrielpfernandes/">
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/gabrieelpim/">
         <i className="fab fa-instagram-square"> Instagram</i>
       </a>
       <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabrielpfernandes/">
