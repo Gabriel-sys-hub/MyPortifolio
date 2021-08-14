@@ -28,10 +28,12 @@ const Skills = () => {
     "Flexibilidade",
     "Empatia",
     "Comunicação",
+    "Determinação",
+    "Liderança",
   ]
 
   return (
-    <div className="container">
+    <div className="container__skills">
       <div>
       <h1>Soft Skills</h1>
       <div className="wrapper">

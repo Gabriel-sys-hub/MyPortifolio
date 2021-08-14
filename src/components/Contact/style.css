@@ -2,8 +2,15 @@ i {
   margin: 20px;
   list-style: none;
   text-decoration: none;
-  color: rgb(37, 111, 207);
+  color: rgb(231, 101, 15);
   font-size: 4em;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 
@@ -19,4 +26,16 @@ i {
     justify-content: center;
     align-content: center;
   }
+}
+
+@media (max-width:880px) {
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
 }
