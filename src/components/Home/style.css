@@ -1,6 +1,6 @@
 .home {
   min-width: 100vw;
-  min-height: calc(100vh - 7rem);
+  min-height: calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,50 +37,64 @@
 .overlay__person {
   content: "";
   position: absolute;
-  width: 60%;
-  height: 100%;
+  width: 30%;
+  height: 50%;
   right: 70px;
-  top: 70px;
+  top: 100px;
   z-index: 0;
-  border: 5px solid rgb(231, 101, 15);
+  border: 5px dotted var(--header-white);
 }
 
 .overlay__persontwo {
   content: "";
   position: absolute;
-  width: 40%;
-  height: 70%;
+  width: 50%;
+  border-radius: 50px;
+  height: 400px;
   right: 100px;
-  background-color: rgb(231, 101, 15);
+  background-color: var(--header-text-color);
   top: -100px;
   z-index: 0;
 }
 
-.home .title h1 {
-  font-size: 2em;
-  color: #ffffff;
+.overlay__personthree {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  right: 50px;
+  background-color: var(--header-white);
+  top: -50px;
+  z-index: 1;
 }
 
-.home .title p {
+.container {
+  width: 30%;
+}
+
+.home .title h1 {
+  font-size: 3em;
+  color: var(--header-text-color);
+}
+
+.home .title h1 {
   position: relative;
-  width: 24em;
   border-right: 2px solid rgba(0, 0, 0, 0.75);
-  font-size: 100%;
   text-align: center;
-  margin-top: 20px;
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
-  animation: typewriter 3s steps(40) 1s 1 normal both,
+  animation: typewriter 2s steps(40) 1s normal both,
     blinkTextCursor 500ms steps(30) infinite normal;
 }
+
 
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
-    width: 19.5em;
+    width: 10.2em;
   }
 }
 
@@ -161,11 +175,10 @@
   .container {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 90px;
   }
 
   .title {
@@ -175,8 +188,10 @@
   }
   .title h1 {
     margin: 0;
+    padding: 0;
   }
   .home .person img {
-    width: 60%;
+    width: 50%;
+    border-radius: 50px;
   }
 }

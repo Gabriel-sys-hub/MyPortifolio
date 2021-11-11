@@ -1,8 +1,9 @@
 .navbar {
+  background-color:  var(--header-white);
   display: flex;
-  padding: 30px;
+  padding: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .nav-wrapper {
@@ -33,7 +34,7 @@
   padding: 8px;
   position: absolute;
   border-radius: 5px;
-  color: rgb(231, 101, 15);
+  color: var(--header-text-color);
   transition: all 0.5s ease-in-out;
 }
 
@@ -60,14 +61,16 @@
   display: block;
   font-size: 24px;
   padding: 10px 0;
-  color: #dddddd;
+  color: rgb(223, 223, 223);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .list-wrapper ul li a:hover {
-  color: rgb(231, 101, 15);
-  background-color: #dddddd;
+  color: var(--header-text-color);
+  background-color: rgb(223, 223, 223);
 }
 
 @media ( min-width: 800px ) {
@@ -95,13 +98,15 @@
 
   .list-wrapper ul li a {
     padding: 5px;
-    color: #dddddd;
+    color: var(--card-text-blue);
+    text-transform: uppercase;
+    font-weight: 700;
   }
 
   .list-wrapper ul li a:hover {
     padding: 5px;
-    color: #dddddd;
-    transform: scale(0.8);
+    color:rgb(0, 35, 66);
+    transform: scale(1.1);
     background: transparent;
   }
 }

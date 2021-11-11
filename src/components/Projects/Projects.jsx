@@ -6,26 +6,65 @@ import pixelArt from "../images/palet.png";
 import pokedexVanilla from "../images/pokedexVanilla.png";
 import question from "../images/question.png";
 
-import { useState } from "react";
-
 const Projects = () => {
-  const [activeDescription, setActiveDescription] = useState(0);
-
   return (
     <div className="projects">
       <div className="imgContainer">
-        <h1>To do List</h1>
         <img
-          onClick={() => setActiveDescription(1)}
-          src={toDoList}
-          alt="toDoList"
+          src="https://user-images.githubusercontent.com/77814658/141337479-fb403b78-aa02-4eec-ace7-9af11e8763a9.png"
+          alt="ebytr"
           className="projectImage"
         />
-        <div className={activeDescription === 1 ? "active" : "desactive"}>
+        <div className={"active"}>
           <p>
-            A task list, that you can add new tasks, remove, remove finished
-            tasks, save tasks on local storage, change priority and remove all
-            tasks.
+            O projeto é uma To Do list, onde se pode criar, deletar, editar,
+            registrar usuário, mudar o status e logar. Foi construido toda API
+            onde vai receber os dados, com Node.js e Express para fazer a
+            ligação com o Front, usando o Axios para fazer as requisições. O
+            projeto foi estruturado com testes unitarios e ainda está em
+            andamento
+          </p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Gabriel-sys-hub/Ebytr"
+          >
+            <button className="projectButton" type="button">
+              Ebytr - Lista de Tarefas
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="imgContainer">
+        <img
+          src="https://user-images.githubusercontent.com/77814658/141337489-cf9528cf-04ec-4c9d-848f-1cf6109806bf.png"
+          alt="corebiz"
+          className="projectImage"
+        />
+        <div className={"active"}>
+          <p>
+            Layout responsivo feito com intuito de treinamento. Um e-comerce,
+            onde você tem um carousel que recebe itens de uma API, assim sendo
+            possível a compra e adicioanr ao seu carrinho.
+          </p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Gabriel-sys-hub/corebiz."
+          >
+            <button className="projectButton" type="button">
+              Corebiz - Carrinho de Compras
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="imgContainer">
+        <img src={toDoList} alt="toDoList" className="projectImage" />
+        <div className={"active"}>
+          <p>
+            Uma lista de tarefas feita totalmente em Javascript, onde se pode
+            adicionar, ordenar, salvar no localstorage, finalizar uma tarefa,
+            deletar tarefa finalizada.
           </p>
           <a
             target="_blank"
@@ -33,24 +72,16 @@ const Projects = () => {
             href="https://gabriel-sys-hub.github.io/Projetos-Trybe/todolistTry/index.html"
           >
             <button className="projectButton" type="button">
-              To do List
+              Lista de Tarefas - Vanilla Javascript
             </button>
           </a>
         </div>
       </div>
       <div className="imgContainer">
-        <h1>Pixel Art</h1>
-        <img
-          onClick={() => setActiveDescription(2)}
-          src={pixelArt}
-          alt="toDoList"
-          className="projectImage"
-        />
-        <div div className={activeDescription === 2 ? "active" : "desactive"}>
+        <img src={pixelArt} alt="toDoList" className="projectImage" />
+        <div className={"active"}>
           <p>
-            A board that you can paint with random colors a pixel art, you can
-            choice diferent quantity of coluns and lines for the size of the
-            board.
+            Uma aplicação web, onde você pode escolher o tamanho do quadro em pixels e as cores que quer usar, nela você pode pintar o que quiser e se divertir.
           </p>
           <a
             target="_blank"
@@ -64,14 +95,8 @@ const Projects = () => {
         </div>
       </div>
       <div className="imgContainer">
-        <h1>Color Guess</h1>
-        <img
-          onClick={() => setActiveDescription(3)}
-          src={colorGuess}
-          alt="toDoList"
-          className="projectImage"
-        />
-        <div div className={activeDescription === 3 ? "active" : "desactive"}>
+        <img src={colorGuess} alt="toDoList" className="projectImage" />
+        <div className={"active"}>
           <p>
             A fun game that you can try to guess the color as the title say. You
             score points and lose points as you aswer a wrong question.
@@ -88,14 +113,8 @@ const Projects = () => {
         </div>
       </div>
       <div className="imgContainer">
-        <h1>Pokedex - Vanilla Javascript</h1>
-        <img
-          onClick={() => setActiveDescription(4)}
-          src={pokedexVanilla}
-          alt="toDoList"
-          className="projectImage"
-        />
-        <div div className={activeDescription === 4 ? "active" : "desactive"}>
+        <img src={pokedexVanilla} alt="toDoList" className="projectImage" />
+        <div className={"active"}>
           <p>
             A application that simulate a pokedex, you can filter pokemons by
             name and type. It gives the image and some information about each
@@ -113,14 +132,8 @@ const Projects = () => {
         </div>
       </div>
       <div className="imgContainer">
-        <h1>Question</h1>
-        <img
-          onClick={() => setActiveDescription(5)}
-          src={question}
-          alt="toDoList"
-          className="projectImage"
-        />
-        <div div className={activeDescription === 5 ? "active" : "desactive"}>
+        <img src={question} alt="toDoList" className="projectImage" />
+        <div className={"active"}>
           <p>
             A room application, you can login via google, create a room, give
             invites for others people, ask questions, aswer, like, delete and

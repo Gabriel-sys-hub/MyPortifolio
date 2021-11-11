@@ -1,18 +1,16 @@
 i {
-  margin: 20px;
   list-style: none;
+  margin-left: 20px;
   text-decoration: none;
-  color: rgb(231, 101, 15);
-  font-size: 4em;
+  color: var(--header-text-color);
+  font-size: 3em;
 }
 
 .contact__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
 }
-
 
 @media ( max-width: 880px ) {
   i {
@@ -20,22 +18,19 @@ i {
     margin: 81px 0px;
   }
 
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
   }
-}
-
-@media (max-width:880px) {
-
-.contact__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-}
-
 }
