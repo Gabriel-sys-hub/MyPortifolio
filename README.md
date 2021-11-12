@@ -1,5 +1,7 @@
 <h1 align="center">Meu portifolio</h1>
 
+![gif portfolio](https://user-images.githubusercontent.com/77814658/141388165-f516a0e4-37fc-40e8-ac33-2e1bad3c9b9d.gif)
+
 <h2 align="center">Descrição</h2>
 
 <p align="center">Este projeto foi criado com intuito de armazenar informações sobre meus projetos, objetivos e sobre mim.</p>
