@@ -59,6 +59,10 @@ li {
 }
 
 @media screen and (max-width: 800px) {
+
+  .container__skills {
+    width: 100vw;
+  }
   .navbar {
     background-color: transparent;
   }
@@ -81,14 +85,44 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70vw;
     justify-content: center;
 
   }
 
+  .carousel .control-dots .dot {
+    padding: 10px;
+  }
+
+  
+  .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+    padding: 10px;
+    background-color: var(--header-text-color);
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none;
+  }
+
+  .carousel .carousel-status {
+    display: none;
+  }
+  
+  .list-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card-container,
   .card-container ul {
-    width: 80%;
+    width: 100%;
+    margin-top: 60px;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
 

@@ -6,9 +6,12 @@ import pixelArt from "../images/palet.png";
 import pokedexVanilla from "../images/pokedexVanilla.png";
 import question from "../images/question.png";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 const Projects = () => {
   return (
-    <div className="projects">
+    <Carousel className="projects">
       <div className="imgContainer">
         <img
           src="https://user-images.githubusercontent.com/77814658/141337479-fb403b78-aa02-4eec-ace7-9af11e8763a9.png"
@@ -150,7 +153,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-    </div>
+    </Carousel>
   );
 };
 
