@@ -17,17 +17,15 @@ const Home = () => {
           <p className="more">Desenvolvedor Front-end</p>
         </div>
         <p className="description">
-          Tenho 27 anos sou uma pessoa determinada. Apaixonado por esportes,
-          música e família. Busco me envolver em projetos que impactam
-          positivamente a vida das pessoas e agregam valor para gerações
-          futuras. Já trabalhei como fotografo e designer, como pequeno
-          empreendedor e estou adentrando nessa área de tecnologia. Atualmente
-          estudo Desenvolvimento Web na Trybe. Tenho experiência em projetos
-          pessoais na área de frontend e backend. As principais linguagens &
-          libs que trabalho é Javascript, ReactJS, NodeJS, MongoDB, MySQL, SASS
-          e Jest. Estou todos os dias buscando melhorar minha base de
-          conhecimento, praticando com projetos pessoais e em buscas de novas
-          experiências de trabalho.
+          Tenho 27 anos e sou uma pessoa determinada. Sou Apaixonado por
+          esportes, música e pela minha família. Busco me envolver em projetos
+          que impactam positivamente a vida das pessoas e agregam valor para
+          gerações futuras. Já trabalhei como fotografo e designer, como
+          empreendedor e agora ingressando na área de tecnologia. A tecnologia
+          nós trás oportunidades de sermos melhores e buscar nela algo que vá
+          agregar na vida das pessoas, vai além de buscar um trabalho é um
+          prazer acordar e poder trabalhar com o que ama. Os demais pontos do
+          resumo estão muito bons.
         </p>
       </div>
     </div>

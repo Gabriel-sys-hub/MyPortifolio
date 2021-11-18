@@ -12,7 +12,8 @@
 }
 
 h2 {
-  color: var(--card-text-blue);
+  color: var(--header-text-color);
+  font-size: 2rem;
 }
 
 li {
@@ -32,7 +33,6 @@ li {
   justify-content: flex-start;
   width: 100%;
 }
-
 
 .fab {
   color: var(--card-text-blue);
@@ -69,6 +69,11 @@ li {
 
   .list-wrapper i {
     color: var(--header-text-color)
+  }
+
+  .fab {
+    color: var(--card-text-blue);
+    font-size: 3rem;
   }
 
   .container {

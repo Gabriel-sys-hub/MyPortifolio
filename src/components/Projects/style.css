@@ -4,6 +4,30 @@
   cursor: pointer;
 }
 
+.control-arrow, .carousel-status {
+  display: none;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.carousel .control-dots .dot {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.carousel .control-dots .dot.selected {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: var(--header-text-color) !important;
+}
+
+
+
 .active:hover {
   display: flex;
   opacity: 1;

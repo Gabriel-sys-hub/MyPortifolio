@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const NavBar = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const [screenWidth, setScreenWidth] = useState(0);
   const location = useLocation();
 
