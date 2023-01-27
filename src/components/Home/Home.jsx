@@ -24,8 +24,7 @@ const Home = () => {
           empreendedor e agora ingressando na área de tecnologia. A tecnologia
           nós trás oportunidades de sermos melhores e buscar nela algo que vá
           agregar na vida das pessoas, vai além de buscar um trabalho é um
-          prazer acordar e poder trabalhar com o que ama. Os demais pontos do
-          resumo estão muito bons.
+          prazer acordar e poder trabalhar com o que ama.
         </p>
       </div>
     </div>
