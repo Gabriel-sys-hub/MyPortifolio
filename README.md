@@ -1,21 +1,37 @@
-<h1 align="center">Meu portifolio</h1>
+# Gabriel Fernandes - Portfolio
 
-![gif portfolio](https://user-images.githubusercontent.com/77814658/141388165-f516a0e4-37fc-40e8-ac33-2e1bad3c9b9d.gif)
+Meu portfólio pessoal de desenvolvedor, construído com React, TypeScript e TailwindCSS.
 
-<h2 align="center">Descrição</h2>
+## Stack
 
-<p align="center">Este projeto foi criado com intuito de armazenar informações sobre meus projetos, objetivos e sobre mim.</p>
+- **React 18** - Biblioteca UI
+- **TypeScript** - Tipagem estática
+- **Vite** - Build tool
+- **TailwindCSS** - Framework CSS
+- **Lucide React** - Ícones
 
-<h2 align="center">Estado do Projeto</h2>
+## Rodando Localmente
 
-<h4 align="center"> 
-	🚧  React Portifolio 🚀 Em construção...  🚧
-</h4>
+```bash
+# Instalar dependências
+npm install
 
+# Servidor de desenvolvimento
+npm run dev
 
-<h2 align="center">As seguintes ferramentas foram usadas na construção do projeto:</h2>
+# Build de produção
+npm run build
 
-<h4 align="center"> React<br>
- Javascript</h4>
+# Preview do build
+npm run preview
+```
 
-<h1 align="center"> GitHub Pages - <a href="https://gabriel-sys-hub.github.io/MyPortifolio/">My Portifolio</a>
+## Deploy
+
+```bash
+npm run deploy
+```
+
+## Live
+
+[gabriel-sys-hub.github.io/MyPortifolio](https://gabriel-sys-hub.github.io/MyPortifolio/)
